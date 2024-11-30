@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     justify-content: center;
+}
+
+
+.header{
+    width:auto;
+    max-height: fit-content;
+    justify-items: center; /*centrar los items de header*/
+}
+
+.nav__ul{
+    gap: 20px;
+    display: flex;   
+    .nav__ul--items{
+        list-style: none;
+        .nav__link{
+            text-decoration: none;
+            color: black;
+            transition: .5s;
+            &:hover{
+                color: gray;
+            }
+        }
+    }
+}
