@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    border: none;
 }
 
 body{
@@ -33,21 +34,27 @@ body{
             transition: .5s;
 
             &:hover{
-                color: gray;
+                color: #4CAF50;
             }
         }
     }
 }
 
 .main{
+    background-color: #ffffff;
+    color: #333333;
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    .main__article--subtitle{
+        color: #222222;
+    }
 }
 
 .main__article{
+    background-color: #F5F5F5 ;
     padding: 5px;
     border: gray solid 1px;
     border-radius: 10px;
@@ -77,11 +84,16 @@ body{
 }
 
 .main__article--img{
+    margin-top: 10px;
     width: 250px;
     height: 250px;
+    border-radius: 4px;
 }
 
 .footer{
+    padding-top: 8px;
+    background-color: #333333;
+    color: #ffffff;
     justify-items: center;
 
     .footer__ul{
@@ -90,10 +102,9 @@ body{
         .footer__ul--li{
             list-style: none;
             .footer__ul--link{
+                color: #ffffff;
                 text-decoration: none;
-                    color: black;
                     transition: .5s;
-
                     &:hover{
                         color: gray;
                     } 
@@ -103,6 +114,7 @@ body{
 
     .form{
         .input{
+            border-radius: 5px;
             width:-webkit-fill-available; /* hacer los input del tamaño del contenedor form*/
             height: 25px;
             margin: 7px;
