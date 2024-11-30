@@ -131,12 +131,28 @@ body{
         }
 
     }
-
 }
 
-/* 
-@media (max-width: 450px) {
-    .header {
-    }
-  }
-   */
+.stats-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.stats-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.stats-button:hover {
+    background-color: #555;
+}
+
+.stats-text {
+    margin-top: 10px;
+    font-size: 1rem;
+}

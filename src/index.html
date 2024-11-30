@@ -59,6 +59,8 @@
         </article>
     </main>
 
+    
+
     <footer class="footer">
 
         <ul class="footer__ul">
@@ -83,13 +85,18 @@
         <form class="form">
             <input type="text" class="input" name="" id="" placeholder="Nombre" required>
             <input type="email" class="input" name="" id="" placeholder="Email" required>
-            <textarea name="" class="input textarea" id="" placeholder="Ingresa tu mensaje"></textarea>
+            <textarea name="" class="input textarea" id="" placeholder="Ingresa tu mensaje" required></textarea>
             <button type="submit" class="input button">Enviar</button>
         </form> 
 
-        
-
+        <p id="formMessage"></p>
         <p class="footer__rights">© 2024 Mi Espacio Virtual</p>
     </footer>
+
+    <div class="stats-container">
+        <button id="statsButton" class="stats-button">Ver estadísticas</button>
+        <p id="clickCount" class="stats-text">Contador de visitas: 0</p>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
